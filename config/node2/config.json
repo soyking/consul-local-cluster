@@ -1,0 +1,15 @@
+{
+	"node_name": "node2",
+	"data_dir": "data/node2",
+	"server": true,
+	"bind_addr": "127.0.0.1",
+	"start_join": ["127.0.0.1:8301"],
+	"ports": {
+		"server": 18300,
+		"serf_lan": 18301,
+		"serf_wan": 18302,
+		"rpc": 18400,
+		"http": 18500,
+		"dns": 18600
+	}
+}

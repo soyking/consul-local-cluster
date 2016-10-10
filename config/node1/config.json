@@ -1,0 +1,15 @@
+{
+	"node_name": "node1",
+	"data_dir": "data/node1",
+	"server": true,
+	"bind_addr": "127.0.0.1",
+	"bootstrap": true,
+	"ports": {
+		"server": 8300,
+		"serf_lan": 8301,
+		"serf_wan": 8302,
+		"rpc": 8400,
+		"http": 8500,
+		"dns": 8600
+	}
+}
