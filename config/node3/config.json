@@ -3,7 +3,7 @@
 	"data_dir": "data/node3",
 	"server": true,
 	"bind_addr": "127.0.0.1",
-	"start_join": ["127.0.0.1:8301"],
+	"retry_join": ["127.0.0.1:8301"],
 	"ports": {
 		"server": 28300,
 		"serf_lan": 28301,
